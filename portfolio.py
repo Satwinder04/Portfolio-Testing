@@ -6,8 +6,8 @@ from selenium.webdriver.common.by import By
 
 serviceObj=Service(r"D:\BEBO-tech\drivers\chromedriver-win64\chromedriver.exe")
 dr=webdriver.Chrome(service=serviceObj)
-# dr.get("https://portfolio-vite-app.vercel.app/")
-dr.get("http://localhost:5173/")
+dr.get("https://portfolio-vite-app.vercel.app/")
+# dr.get("http://localhost:5173/")
 time.sleep(5)
 
 for i in range(1,8):
